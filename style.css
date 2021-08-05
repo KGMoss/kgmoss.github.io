@@ -1,0 +1,132 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color:white;
+ font-family:Geneva;
+ text-align:center;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color:#1977D4;
+  font-family: Verdana, Geneva, sans-serif;
+  padding:1em;
+}
+
+#info{
+  padding-bottom:2em;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+#subtitle{
+  padding-bottom:2em;
+  margin-left:20%;
+  margin-right:20%;
+}
+
+#factTitle{
+  margin:.3em;
+  color:#1977D4;
+  font-size:48px;
+  text-decoration:bold;
+}
+
+
+/* STYLE IMAGES */
+
+#aqueduct{
+  max-width: 30%;
+  border-radius:.5em;
+  border: .5em solid #1977D4;
+  margin-bottom:1em;
+}
+
+.captionedImg {
+  display:block;
+  float:left;
+  text-align:center;
+  max-width: 25%;
+  margin: .5em;
+  padding: .5em;
+  margin-left:3%;
+  margin-right:3%;
+  border-radius:.5em;
+  border: .5em solid #1977D4;
+}
+
+.actionImg{
+  max-width:100%;
+  text-align:center;
+  border-radius: .5em;
+}
+/* STYLE NAV BAR */
+   ul {
+  list-style-type:none;
+  background-color:#e6e8eb;
+  overflow:hidden;
+  padding:1em;
+  text-align:center;
+ }
+
+ li {
+   display: inline;
+ }
+
+ li a{
+   text-decoration: none;
+   color:#000000;
+   font-size:1.3em;
+   padding:1em;
+ }
+
+ li a:hover {
+   background-color: lightsteelblue;
+ }
+  
+
+/* STYLE BUTTONS */
+
+#factButton{
+  background-color:#1977D4;
+  color:white;
+  padding:1em;
+  border:.3em#1977D4 solid;
+  font-size:24px;
+  border-radius:.5em;
+}
+
+/* ADD MORE! */
+
+
+
+#sourceText{
+  padding: 20em;
+}
+
+#fact{
+  background-color:white;
+  font-size: 36px;
+  color:#1977D4;
+  margin-left:10%;
+  margin-right:10%;
+  border-radius:.5em;
+  border:.3em solid #1977D4;
+  padding:.5em;
+  margin-top:.5em;
+  margin-bottom:.5em;
+}
+
+
+#factGen{
+  border:.5em solid #e6e8eb;
+  margin-left:20%;
+  margin-right:20%;
+  background-color:#e6e8eb;
+  border-radius:.5em;
+}
